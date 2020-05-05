@@ -7,3 +7,5 @@ spec:
     nodeAuthorizer:
       image: schottmichal/kops-node-authorizer:v1.16.1
 ```
+
+[Docker Hub](https://hub.docker.com/repository/docker/schottmichal/kops-node-authorizer)
