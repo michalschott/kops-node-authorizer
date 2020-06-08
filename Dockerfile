@@ -1,9 +1,9 @@
-FROM golang:1.14.1 as builder
+FROM golang:1.14.4 as builder
 
-ENV VERSION=v1.16.1
+ENV VERSION=v1.17.0
 
 RUN set -xe; \
-    apt-get update && apt-get install openssl libssl1.1 libgnutls30; \
+    apt-get update && apt-get install -y openssl libssl1.1 libgnutls30; \
     mkdir /tmp/kops; \
     cd /tmp/kops; \
     git init; \
