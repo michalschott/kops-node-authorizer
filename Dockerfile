@@ -1,6 +1,6 @@
 FROM golang:1.14.4 as builder
 
-ENV VERSION=v1.17.0
+ENV VERSION=v1.18.3
 
 RUN set -xe; \
     apt-get update && apt-get install -y openssl libssl1.1 libgnutls30; \
