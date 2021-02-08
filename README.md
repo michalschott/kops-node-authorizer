@@ -5,7 +5,7 @@ To run it, update your cluster spec file with:
 spec:
   nodeAuthorization:
     nodeAuthorizer:
-      image: schottmichal/kops-node-authorizer:v1.17.0
+      image: streetmanagerops/kops-node-authorizer:v1.18.3
 ```
 
-[Docker Hub](https://hub.docker.com/repository/docker/schottmichal/kops-node-authorizer)
+[Docker Hub](https://hub.docker.com/r/streetmanagerops/kops-node-authorizer)
